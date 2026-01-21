@@ -10,8 +10,7 @@ pacman -Syu --noconfirm pipewire-jack \
     fmt         \
     libsodium   \
     sdl2-compat \
-    sdl2_image  \
-    simpleini
+    sdl2_image
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
