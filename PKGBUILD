@@ -11,7 +11,7 @@ arch=('aarch64' 'x86_64')
 url="https://github.com/diasurgical/devilutionX"
 license=('custom:unlicense')
 depends=('bzip2' 'fmt' 'libpng' 'libsodium' 'sdl2-compat' 'sdl2_image' 'zlib')
-makedepends=('cmake' 'devilutionx-graphics-tools-git' 'flac' 'gettext' 'git' 'lame' 'ninja' 'smpq')
+makedepends=('cmake' 'flac' 'gettext' 'git' 'lame' 'ninja')
 options=('strip')
 source=("${url}/releases/download/${pkgver}/devilutionx-src.tar.xz"
   "${url}-assets/releases/download/v4/fonts.mpq"
